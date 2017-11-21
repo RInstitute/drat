@@ -5,3 +5,13 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: RcppArrayFire
+Version: 0.0.1
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.4)
+LinkingTo: Rcpp
+Suggests: pkgKitten, knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: fc4348309941db8ef9d0be1db0975983
+NeedsCompilation: yes
+
