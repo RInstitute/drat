@@ -1,3 +1,12 @@
+Package: dqmagic
+Version: 0.0.1
+Imports: Rcpp (>= 0.12.14)
+LinkingTo: Rcpp
+Suggests: testthat, covr
+License: GPL (>= 2)
+MD5sum: b79708ec2601bf2e73cc81b4330beba1
+NeedsCompilation: yes
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
@@ -14,4 +23,3 @@ Suggests: pkgKitten, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 30441be338cd8a63de27c09abe795993
 NeedsCompilation: yes
-
