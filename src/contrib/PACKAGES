@@ -1,10 +1,10 @@
 Package: dqmagic
-Version: 0.0.1
+Version: 0.0.2
 Imports: Rcpp (>= 0.12.14)
 LinkingTo: Rcpp
 Suggests: testthat, covr
 License: GPL (>= 2)
-MD5sum: b79708ec2601bf2e73cc81b4330beba1
+MD5sum: 9fd364a2018b757bb6da1a49358f1658
 NeedsCompilation: yes
 
 Package: drat
