@@ -15,11 +15,11 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: RcppArrayFire
-Version: 0.0.2
+Version: 0.0.3
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.4)
 LinkingTo: Rcpp
-Suggests: pkgKitten, knitr, rmarkdown
+Suggests: pkgKitten, knitr, rmarkdown, covr, testthat, inline
 License: GPL (>= 2)
-MD5sum: 30441be338cd8a63de27c09abe795993
+MD5sum: 61c1a0bda9f022011d21d01411dcd2ac
 NeedsCompilation: yes
