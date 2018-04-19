@@ -7,6 +7,16 @@ License: GPL (>= 2)
 MD5sum: 30261bbf25136f4ccc48b7ed5eb05eb5
 NeedsCompilation: yes
 
+Package: dqrng
+Version: 0.0.1
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.12.16)
+LinkingTo: Rcpp, BH (>= 1.64.0-1)
+Suggests: testthat, knitr, rmarkdown, covr
+License: GPL (>= 2) | file LICENSE
+MD5sum: 3b704b179d3c90fa74007139a0c9dd14
+NeedsCompilation: yes
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
