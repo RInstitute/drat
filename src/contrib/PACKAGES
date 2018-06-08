@@ -8,13 +8,13 @@ MD5sum: 30261bbf25136f4ccc48b7ed5eb05eb5
 NeedsCompilation: yes
 
 Package: dqrng
-Version: 0.0.2
+Version: 0.0.4
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.12.16)
 LinkingTo: Rcpp, BH (>= 1.64.0-1)
 Suggests: testthat, knitr, rmarkdown, covr
-License: GPL (>= 2) | file LICENSE
-MD5sum: f5ede4cc0384b03d736803743a29fea9
+License: AGPL-3 | file LICENSE
+MD5sum: 16e11fbe302bc95ec3e206cc03f7ce53
 NeedsCompilation: yes
 
 Package: drat
