@@ -33,3 +33,13 @@ Suggests: pkgKitten, knitr, rmarkdown, covr, testthat, inline
 License: GPL (>= 2)
 MD5sum: 61c1a0bda9f022011d21d01411dcd2ac
 NeedsCompilation: yes
+
+Package: tikzDevice
+Version: 0.12
+Depends: R (>= 2.14.0)
+Imports: filehash (>= 2.3), png
+Suggests: evaluate, formatR, ggplot2, knitr, lattice, maps, scales,
+        stringr, testthat (>= 0.8.1), withr
+License: GPL (>= 2)
+MD5sum: a2e512673e73cf9e908231eea474a38c
+NeedsCompilation: yes
