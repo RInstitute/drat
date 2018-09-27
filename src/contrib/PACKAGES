@@ -17,6 +17,15 @@ License: AGPL-3 | file LICENSE
 MD5sum: 16e11fbe302bc95ec3e206cc03f7ce53
 NeedsCompilation: yes
 
+Package: dqsample
+Version: 0.0.1
+Imports: Rcpp (>= 0.12.18)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 1be66422cb118563ecd4f60cd9b5d4c5
+NeedsCompilation: yes
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
