@@ -34,13 +34,13 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: RcppArrayFire
-Version: 0.0.3
+Version: 0.1.0
 Depends: R (>= 3.1.0)
 Imports: Rcpp (>= 0.11.4)
 LinkingTo: Rcpp
-Suggests: pkgKitten, knitr, rmarkdown, covr, testthat, inline
+Suggests: pkgKitten, knitr, rmarkdown, testthat, inline, Matrix
 License: GPL (>= 2)
-MD5sum: 61c1a0bda9f022011d21d01411dcd2ac
+MD5sum: aafde632eeac9513d7b154d1dfc2d541
 NeedsCompilation: yes
 
 Package: tikzDevice
